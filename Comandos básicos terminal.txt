@@ -1,0 +1,6 @@
+Windows                    Unix
+-cd         navegar        -cd
+-dir       listar            -ls
+-mkdir     criar pastas       -mkdir
+-del / rmdir   deletar pastas/arquivo  -rm -rf
+-cls       limpar           -clear/ ctrl + L
