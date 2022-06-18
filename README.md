@@ -1,4 +1,4 @@
-# The Dragon Progress :dragon_face::world_map:
+# The Dragon Progress :dragon_face: :world_map:
 
 **Fala Rapaziadaaa!**
 
