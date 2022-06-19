@@ -32,13 +32,13 @@ A ideia de uma estrutura condicional é que dado uma condição satisfeita eu ex
 
 Existem diferentes estruturas condicionais, onde a "simples" verifica se a condição foi satisfeita e executa a operação, na "composta" ela verifica se a condição foi satisfeita, se não joga uma exceção, e a encadeada ocorre o "se", "senão" um dentro do outro.
 
-![](C:\Users\pp\Desktop\1.PNG)
+![](https://ibb.co/ngjQJ5y)
 
 
 
 Os operadores relacionados são:
 
-![](C:\Users\pp\Desktop\Capturar.PNG)
+![](https://ibb.co/Fb2BhXc)
 
 Todos estes são utilizados numa estrutura condicional para que possam verificar tal afirmação e se for verdadeira executa a ação.
 

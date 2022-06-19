@@ -2,7 +2,7 @@
 
 - As instruções irão determinar as ações que iremos executar encima do nossos dados. Geralmente cálculos matemáticos utilizando como informação as variáveis e as constantes.
 
-![](C:\Users\pp\Desktop\2.PNG)
+![](https://ibb.co/Ks9ZKGx)
 
 
 
