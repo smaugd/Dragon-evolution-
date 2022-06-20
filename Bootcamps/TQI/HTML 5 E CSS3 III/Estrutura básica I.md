@@ -16,13 +16,9 @@ A tag head contém elementos que serão lidos pelo navegador, como os metadados 
 
 E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.
 
+<h1 class="título">Título</h1>
 
-
-<h1 class="título">Título</h1>   
-
-
-
-- Estrutura básica 
+- Estrutura básica
 
   `<!DOCTYPE html>  não é um elemento html, apenas diz ao navegador o que ta escrevendo.
       <html>   >> abrimos a tag do html.
@@ -38,6 +34,3 @@ E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, im
   ​        </body>
   </html>
   
-  
-  
-
