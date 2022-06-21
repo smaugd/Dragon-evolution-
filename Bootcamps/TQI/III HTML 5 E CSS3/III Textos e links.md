@@ -31,6 +31,7 @@
 
 - No teste prático foi adicionado ao [index](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/III%20HTML%205%20E%20CSS3/Site/Curso%20HTML/index.html) um link dentro de uma frase com o código `<a href="https://github.com/smaugd"target="_blank">who seeks after it and wants to have it</a>`. Note que foi adicionado o atributo **target** para abrir este link em uma nova aba.
 - Foi adicionado também  o mail:to com o código `<a href="mailto:emailteste@email.com">@maiastrong_</a>`que ao clicar, redireciona para enviar um email para a pessoa do link.
-**Para mais informações/dúvidas acesse o [index](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/III%20HTML%205%20E%20CSS3/Site/Curso%20HTML/index.html) para ver o código inteiro.
+\
+**Para mais informações/dúvidas acesse o** [index](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/III%20HTML%205%20E%20CSS3/Site/Curso%20HTML/index.html) **para ver o código inteiro.**
 
 Até a próxima! :wave::dragon:@smaugd
