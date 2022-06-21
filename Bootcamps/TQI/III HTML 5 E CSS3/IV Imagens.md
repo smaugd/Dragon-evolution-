@@ -1,7 +1,7 @@
 # Como inserir imagens no HTML :thought_balloon:
 
 #### Olá pessoal, então, na verdade é bem simples para inserir uma imagem vamos utilizar o elemento `<img>`.
-##### Este elemento possui apenas dois atributos sendo eles o `**src**` e o `**alt**`
+##### Este elemento possui apenas dois atributos sendo eles o `src` e o `alt`
 
 - `<img src="img/avatar.jpg">` >> Obrigatório, ele guarda o caminho da imagem, pode ser uma imagem dentro do próprio site ou imagem de outro lugar. 
 - `<img alt="Foto de Smaug da Beast">` >> Mesmo não sendo obrigatório é altamente recomendado que utilize pois,ele mostra a descrição da foto quando ela não é carregada,
