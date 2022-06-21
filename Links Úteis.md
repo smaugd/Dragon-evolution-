@@ -12,3 +12,4 @@
 
 [Site da DIO, seja um programador também :)](https://www.dio.me/)
 
+[Guia em inglês de HTML 🔋](https://www.w3schools.com/html/html_intro.asp)
