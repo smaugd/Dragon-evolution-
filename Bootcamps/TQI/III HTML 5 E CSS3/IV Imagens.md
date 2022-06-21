@@ -7,6 +7,6 @@
 - `<img alt="Foto de Smaug da Beast">` >> Mesmo não sendo obrigatório é altamente recomendado que utilize pois,ele mostra a descrição da foto quando ela não é carregada,
 e leitores de tela utilizam essa descrição para passar ao usuário o que ela significa.
 
-##### Na aula prática iremos adicionar uma imagem ao [index](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/III%20HTML%205%20E%20CSS3/Site/Curso%20HTML/index.html)
+##### Na aula prática iremos adicionar uma imagem ao [index](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/III%20HTML%205%20E%20CSS3/Site/Curso%20HTML/index.html).
 
 Até a próxima! :wave::dragon:@smaugd
