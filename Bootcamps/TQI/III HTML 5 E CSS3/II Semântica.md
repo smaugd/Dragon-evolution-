@@ -38,4 +38,4 @@
 
 - **Conteúdo adicionado ao index na aula de semântica**\ **Clique para ver** > [INDEX](https://github.com/smaugd/Dragon-evolution-/blob/master/Bootcamps/TQI/HTML%205%20E%20CSS3%20III/Site/Curso%20HTML/index.html)
 
-\\ \         :wave::wave::wave::wave::wave::wave::wave::wave::wave::wave::wave::wave::wave:
+\\ \      Até a próxima! :wave::dragon:@smaugd

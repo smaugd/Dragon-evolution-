@@ -1,8 +1,8 @@
 ## Tags para textos
 
-##### A criação do HTML foi motivada para compartilhar textos e links.
+##### A criação do HTML foi motivada para compartilhar textos e links
   
-#####Falamos na aula de semântica sobre o :
+##### Falamos na aula de semântica sobre o:
 
 ### `<h1 ao h6>`
 
@@ -27,4 +27,4 @@
 - **target** - Ele indicará como o link vai ser aberto, inicialmente veremos apenas um valor, que será o "_blank" que diz ao navegador para abrir o link em uma nova aba.
  **`<a target="_blank">Link</a>`**
 
-Até a próxima! :wave::dragon:@Smaug
+Até a próxima! :wave::dragon:@smaugd

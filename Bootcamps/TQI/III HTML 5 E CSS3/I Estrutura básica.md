@@ -33,4 +33,6 @@ E dentro da tag body colocamos todo o conteúdo visível ao usuário: textos, im
   ​            onde vai estar o conteúdo da nossa página.
   ​        </body>
   </html>
+
+  Até a próxima! :wave::dragon:@smaugd
   
