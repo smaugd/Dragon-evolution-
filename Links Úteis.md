@@ -1,7 +1,6 @@
-# :a:lguns links Úteis :link::spider_web:
+# :a:lguns links Úteis :link::spider_web
 
-
-[Site da DIO, seja um programador também :)](https://www.dio.me/)
+[Site da DIO, seja um programador também :)](https://dio.me/sign-up?ref=SRQL4LDUYP)
 
 [Guia básico de Markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open) \\ [Emojis Markdown](https://gist.github.com/rxaviers/7360908)
 
