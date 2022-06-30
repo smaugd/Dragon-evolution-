@@ -1,0 +1,66 @@
+# Estilização
+
+## \ Estilizando elementos, textos e listas /
+
+### Font-Family
+
+- Altera a fonte do nosso texto, e podemos utilizar fontes da web ou fontes da nossa máquina.
+- Aqui podemos ver também algumas web-sabe-fonts, pois são encontradas na maioria dos dispositivos, a Verdana e Arial. Exemplo>
+
+`#title{
+    font-family: Verdana;
+ }`
+
+`.post_title {
+    font-family: Verdana, Arial;
+  }`
+
+- No segundo exemplo foi utilizado duas fontes para caso a primeira não carregue utilizar a segunda.
+
+### Font-size
+
+- Altera o tamanho do texto, principal medida é o píxel, mas podem ser utilizadas outras, caso necessário.
+`#title {
+    font-size: 30px;
+}`
+
+`post_title {
+    font-size: 18px;
+}`
+
+### Font-style
+
+- Altera a aparência do nosso texto para itálico, sublinhado ou normal. É bom verificar se a fonte utilizada possui suporte ao itálico antes de utilizar, caso contrário o navegador forçará o texto a inclinar e não ficará bonito.
+`#title {
+    font-style: normal;
+}`
+
+`.subtitle {
+    font-style: italic;
+}`
+
+### Font-weight
+
+- Altera o peso do texto, utilizando algumas palavras chaves ou valores númericos. Utilizado mais para fontes mais complexas.
+`#title {
+    font-weight: normal
+}`
+
+`subtitle {
+    font-weight: bold
+}`
+
+### Text-Transform
+
+- Utilizado para alternar o texto entre maiúsculos e minúsculos.
+o `text-transform: uppercase;` DEIXA TODAS AS LETRAS MAIÚSCULAS.
+o `text-transform: lowercase;` deixa todas as letras minúsculas.
+o `text-transform: capitalize` Deixa Todas as Primeiras Letras Maísculas.
+
+### Text-Decoration
+
+- Utilizado para dar destaque ao texto, colocando uma linha com
+o `text-decoration: underline;` >>> linha abaixo da palavra.
+o `text-decoration: overline;` >>> linha encima da palavra.
+o `text-decoration: line-through;` >>> linha no meio da palavra.
+

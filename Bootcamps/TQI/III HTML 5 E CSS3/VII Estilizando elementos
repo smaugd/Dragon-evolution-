@@ -1,0 +1,39 @@
+# Estilização
+
+## Estilizando elementos, textos e listas
+
+### Padding
+
+- Anteriormente foi atribuido somente um valor no padding para estilizar, vemos que podemos também utilizar valores separados, referentes ao y, x ou para cada lado.
+- A exemplo se setarmos padding: 15px; 10px estamos atribuindo 15px referente a encima e embaixo - eixo y - e 10px referentes aos lados - eixo x.
+- Também é usado a função específica daquele lado como padding-top: 15px; para atribuir a um único lado. Isso é mais usado quando a imagem tem três lados iguais e um diferente.
+- Temos também o atributo _background_ que poode mudar a cor de fundo, colocar uma imagem, alterar posicionamento da imagem, e um bom lugar para estudar é o Mozila Developer Network.
+- Para setar a cor do _background_ podemos utilizar o `background-color: green` ou também o `background-color: #008800` ou também como atalho simplesmente `background: #008800`.
+
+### Border
+
+- A border pode ter três valores, largura cor e estilo.
+- Largura pode ser representada por pixels,centímentos, milimetros etc.
+- Cor por nome da cor em inglês ou hexadecimal.
+- Estilo: sólida, pontilhada, tracejada etc.
+
+>> A exemplo podemos utilizar <img scr="/borda.jpg">
+
+- Para estilizar cada lado utilizaremos o código:
+
+> `.post{
+    border-top: 2px dotted green;
+    border-right: 4px dashed pink;
+    border-bottom: 1px solid purple;
+    border-left: 4px dotted cyan;
+}`
+
+-- De forma geral podemos utilizar os comandos tanto para estilizar uma borda como todas elas, usando o border-width: 3px; para largura, border-color = yellow ou #505050 para cor; ou também o border-style = solid; para contorno da borda.
+
+-- Também podemos criar uma regra mais específica ainda, só adicionado o lado que quer mudar depois da palavra border.
+ 
+##### Border-Radius
+
+- Principal Ferramente para arredondar os cantos de um elemento quadrado.
+- Com o border-radius: 50%; podemos arredondar todos os cantos.
+- Pode ser utilizado também o border-radius: 5px;
