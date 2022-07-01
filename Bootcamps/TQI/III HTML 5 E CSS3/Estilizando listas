@@ -1,0 +1,15 @@
+# Estilização
+
+## \ Estilizando elementos, textos e listas /
+
+### List-style-type
+
+- Podemos tanto estilizar uma lista ordenada como uma lista não ordenada.
+`ul{list-style-type: square;}` > alterando marcador de uma lista não ordenada para quadrado.
+`ol{list-style-type: upper-roman}` > alterando o marcador da ordenada pra maiúsculo.
+`ul{list-style-type: "/1f44d"}` > altera o marcador pra emoji.
+
+\
+
+- É possível também utilizar imagens como marcadores. só utilizar a propriedade e colocar a url da imagem.
+`ul{list-style-image: url("rocket.png");}
