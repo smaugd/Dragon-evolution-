@@ -1,6 +1,6 @@
 # Estilização
 
-## Dimensão e Alinhamento - 
+## Dimensão e Alinhamento -
 
 - Width e Height são elementos utilizados para ajustar largura e altura respectivamente e podemos colocar que um elemento tenha uma quantidade de pixels ou usando porcentagem.
 - Temos também o `Max-width` e `Max-height`, se referindo a largura e altura máxima que os elementos podem ter.

@@ -59,12 +59,12 @@
 }
 
 
-.post_title {
+`.post_title {
     font-size: 16px;
     font-style: italic;
 }
 
-```
+
 
 ## Conceitos básicos
 
@@ -80,29 +80,13 @@
 
 - [ ] Para enxergamos o box-model vamos adicionar cores a alguns elementos.
 - Adicionamos `article class="post_2"` no `<article>` para criar a classe e estilizamos com 
-```
-    .post_2 {
-    background: white;
-    padding: 10px;
-    border: 3px solid #000;
-    margin: 30px;
-}
-```
+`.post_2 {    background: white;    padding: 10px;    border: 3px solid #000;    margin: 30px;}`
 
 - O mesmo fizemos com o `<header>` e criamos a classe `header class="post1"`
 e estilzamos com
-```
-.post_1 {
-    background: rgb(255, 255, 255);
-    padding: 15px;
-    border: #000 2px solid;
-    margin: 10px;
-}
-```
-- Demos também cor ao `<body>` com o 
-```
 
-body {
-    background: #ccc;
-}
-```
+`.post_1 {    background: rgb(255, 255, 255);    padding: 15px;    border: #000 2px solid;    margin: 10px;}`
+
+- Demos também cor ao `<body>` com o 
+
+`body { background: #ccc;}`
