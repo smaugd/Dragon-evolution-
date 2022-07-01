@@ -1,6 +1,8 @@
 body {
     background: #ccc;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .photo{
@@ -14,6 +16,7 @@ body {
     font-style: italic;
     font-size: 40px;
     text-transform: uppercase;
+    text-align: justify
 }
 
 a {
@@ -56,9 +59,20 @@ a {
     margin-bottom: 15px;
     border-radius: 50%;
     text-transform: capitalize;
+    text-align: justify;
 }
 
 .post_image {
     margin-bottom: 15px;
+    width: 100%;
 }
 
+.lista_contato {
+list-style-type: none;
+margin: 0px;
+padding-left: 15px;
+}
+
+.lista_contato li a {
+    text-decoration: none;
+}

@@ -12,4 +12,4 @@
 \
 
 - É possível também utilizar imagens como marcadores. só utilizar a propriedade e colocar a url da imagem.
-`ul{list-style-image: url("rocket.png");}
+`ul{list-style-image: url("rocket.png");}`.
