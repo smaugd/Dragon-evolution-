@@ -182,16 +182,161 @@ a:hover {
   top: 48px;
 }
 
-#toggle:checked + .checkbox {
+#toggle:checked+.checkbox {
   background-color: #ffffff;
 }
 
-#toggle:checked ~ .menu {
+#toggle:checked~.menu {
   box-shadow: 0px 0px 0px 100vmax #ffffff;
   z-index: 1;
 }
 
-#toggle:checked ~ .menu-items {
+#toggle:checked~.menu-items {
   visibility: visible;
   opacity: 1;
+}
+
+/* CARDS */
+
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+}
+
+.card {
+  height: 300px;
+  width: 400px;
+  margin: 3rem 0 0;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: grayscale(0.5);
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card-text {
+  width: 40%;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  color: rgb(109, 109, 109)
+}
+
+.card-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card-wrapper::before {
+  content: '';
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  display: block;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card-wrapper h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.card-wrapper p {
+  font-size: 0;
+  visibility: hidden;
+  opacity: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.card:hover {
+  filter: unset;
+}
+
+.card:hover>.card-wrapper::before {
+  opacity: 1;
+  width: 350px;
+  height: 250px;
+}
+
+.card:hover>.card-wrapper p {
+  font-size: 14px;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Footer */
+
+.footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2e1c2b;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 800px) {
+  .social-media {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+  }
+
+  .container .card-container:nth-child(1),
+  .container .card-container:nth-child(3) {
+    flex-direction: column-reverse;
+  }
+
+  .card {
+    height: 250px;
+    width: 250px;
+  }
+
+  .card-text {
+    width: 90%;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .card:hover > .card-wrapper::before {
+    width: 190px;
+    height: 190px;
+  }
 }
